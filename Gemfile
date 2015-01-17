@@ -14,4 +14,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Deploy to Github
-gem "middleman-gh-pages", :git => 'https://github.com/ashfurrow/middleman-gh-pages'
+gem "middleman-gh-pages", :git => 'https://github.com/monkbroc/middleman-gh-pages'
