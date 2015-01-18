@@ -1,5 +1,72 @@
----
-title: HTML5 Boilerplate Middleman
----
+= partial 'nav'
 
-%p Hello world! This is HTML5 Boilerplate.
+#profile.container.main-container
+  .span3
+    %img.head{:src => "images/head.jpg"}/
+  .span5
+    %h1 Julien Vanier
+    %h3 Entrepreneur &amp; Developer
+    %p
+      Hello. I am Julien Vanier, computer engineer turned entrepreneur.
+      I'm currently the CTO of
+      = succeed "." do
+        %a{:href => "http://munirent.co"} MuniRent
+    %p
+      I've always enjoyed creating computer solutions to solve all kinds
+      of challenges.
+    %p.text-center
+      %a.reach-out{"data-target" => "#myModal", "data-toggle" => "modal", :href => "#"}
+        %i.icon-paper-plane
+        Reach out!
+    .row.social
+      %p See my work on GitHub, or connect on LinkedIn
+      = partial 'social-icons'
+
+#bloodbadge.container
+  .badge-column.span5.offset3
+    %iframe{:frameborder => "0", :height => "140", :src => "http://www.bloodbadge.com/badges/C5tbdvHz_p7qAmAofnh-", :width => "550"}
+
+#work.container
+  %h2 My Work
+  %p Here are some interesting projects I've worked on over the years.
+  %ul.work-images
+    - %w(MuniRent 1000tools OpenSesame).each do |project|
+      = partial 'project', :object => project
+  %ul.work-images
+    - %w(Solstice SendToCar coffee).each do |project|
+      = partial 'project', :object => project
+
+#skills.container
+  %h2 My Skills
+  - data.skills.each do |skill|
+    = partial 'skill', :object => skill
+
+#resume.container
+  %h2 My Resume
+  %h3 You can download my resume for your reference. I hope that we will meet soon!
+  .btn-center
+    %a.reach-out{:href => "JulienVanierResume.pdf", :target => "_blank"}
+      %i.icon-download
+      My Resume
+
+.row.social
+  = partial 'social-icons'
+
+.footer
+  .container
+    %p.pull-left
+      %a.muted{:href => "http://dzyngiri.com"} Template by www.dzyngiri.com
+    %p.pull-right
+      %a{"data-target" => "#myModal", "data-toggle" => "modal", :href => "#", :role => "button"}
+        %i.icon-mail
+        CONTACT JULIEN
+
+/ Contact form in Modal
+#myModal.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+    %h3#myModalLabel
+      %i.icon-mail
+      Contact Me
+  .modal-body
+    %script{:src => "http://form.jotform.us/jsform/50173976868168", :type => "text/javascript"}

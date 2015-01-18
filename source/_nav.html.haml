@@ -1,0 +1,28 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{:href => "#profile"}
+        %img{:src => "images/user.jpg"}/
+      %ul.nav.nav-collapse.pull-right
+        %li
+          %a{:href => "#profile"}
+            %i.icon-user
+            Profile
+        %li
+          %a{:href => "#work"}
+            %i.icon-picture
+            Projects
+        %li
+          %a{:href => "#skills"}
+            %i.icon-trophy
+            Skills
+        %li
+          %a{:href => "#resume"}
+            %i.icon-doc-text
+            Resume
+.clearfix
+

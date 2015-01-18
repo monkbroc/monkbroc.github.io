@@ -1,0 +1,256 @@
+/*This stylesheet contains some custom class rather than Bootstrap*/
+@import "compass/css3/animation";
+
+.head {
+  border-radius: 50%;
+  max-width: 270px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .head {
+	max-width: 220px;
+  }
+}
+
+.work-images article {
+  display: none;
+}
+
+.fancybox-title {
+  font-size: 20px;
+}
+
+a.brand img {
+  border-radius:50%;
+  border:5px solid #fff;
+}
+.main-container {
+  padding:30px 0;
+  padding-top: 120px;
+  min-height:500px;
+}
+.main-container h2 {
+  font-weight:normal;
+  color: #39D084;
+}
+
+/***** Profile *****/
+#profile h1 {
+  color:#39d084;
+  font-weight: normal;
+}
+#profile h3 {
+  color:#fff;
+  font-weight: normal;
+}
+p {
+  color:white;
+  font-size:18px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+a {
+  color: #00BFFF;
+}
+
+a:hover, a:focus {
+  color: #1E90FF;
+}
+
+.fancybox-title p {
+  color: black;
+}
+.fancybox-title a {
+  color: #0088cc;
+}
+.fancybox-title a:hover, .fancybox-title a:focus {
+  color: #005580;
+}
+a.reach-out {
+  display: inline-block;
+  padding:20px 60px;
+  background:#39d084;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:26px;
+  margin:20px 0;
+  border-radius: 40px;
+
+  &:hover {
+	text-decoration:none;
+	background:#11d170;
+  }
+}
+
+.social {
+  text-align:center;
+  padding-bottom:80px;
+}
+
+ul.social-icons {
+  margin:20px 0;
+  li {
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+  }
+  li:first-child {
+	margin-left:0;
+  }
+  li a {
+	opacity:0.8;
+	&:hover {
+	  opacity:1;
+	}
+  }
+}
+
+@media (max-width: 979px) {
+  #bloodbadge .badge-column {
+	float: none;
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+  }
+}
+
+/***** Skills *****/
+.circle-container {
+  width:235px;
+  overflow: hidden;
+}
+.bar-container {
+  text-align:left;
+  padding:47px 0;
+}
+.circle {
+  padding:25px;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  text-align:center;
+  border:8px solid #203748;
+  float:right;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.circle h3 {
+  color:#fff;
+  font-size: 3.4em;
+  font-weight: normal;
+  line-height: 80px;
+}
+
+<% data.skills.each do |skill| %>
+  #skill-<%= skill.css %> .circle {
+	background: <%= skill.color %>;
+  }
+
+  <% if skill.font_size %>
+	#skill-<%= skill.css %> .circle h3 {
+	  font-size: <%= skill.font_size %>;
+	}
+  <% end %>
+<% end %>
+
+.circle:hover {
+  border:8px solid #fff;
+}
+
+.expand-bg {
+  background: none repeat scroll 0 0 #EAEDF2;
+  border-radius:16px;
+  height: 16px;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 0 2px;
+}
+.expand {
+  border-radius: 10px;
+  height: 4px;
+  margin: 2px 0;
+  padding: 4px 0 4px 5px;
+  position: absolute;
+}
+.bar-container h3 {
+  font-size: 18.5px;
+  line-height: 15px;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+
+<% data.skills.each do |skill| %>
+  #skill-<%= skill.css %> .expand {
+	width: <%= skill.grade_css || skill.grade %>;
+	background: <%= skill.color %>;
+	@include animation(<%= skill.css %> 2s ease-out);
+  }
+
+  @include keyframes(<%= skill.css %>) {
+	0% { width: 0px; }
+	100% { width: <%= skill.grade_css || skill.grade %>; }
+  }
+<% end %>
+
+/**** Work container *****/
+ul.work-images li {
+  list-style:none;
+  display:inline-block;
+  margin: 8px 10px;
+}
+ul.work-images li:first-child {
+  margin-left:0;
+}
+ul.work-images li div {
+  background:url(../images/eye.png) 50% 50% no-repeat;
+  background-color: #f04949;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ul.work-images li img {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ul.work-images li img:hover {
+  opacity:0.1;
+}
+/***** Resume container *****/
+#resume h3 {
+  margin:60px 0;
+}
+#resume .btn-center {
+  text-align:center;
+}
+.footer {
+  background:#355267;
+  p {
+	margin:20px 0;
+  }
+  a {
+	color:#fff;
+	text-decoration:none;
+  }
+  a:hover {
+	color:#39d084;
+  }
+  .muted {
+	color: #999999;
+  }
+  a.muted:hover, a.muted:focus {
+	color: #808080;
+  }
+}
+
+@media (max-width: 979px) {
+  .navbar-fixed-top .navbar-inner,  .navbar-fixed-bottom .navbar-inner {
+	padding: 5px 25px 5px 25px;
+  }
+}

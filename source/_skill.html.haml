@@ -1,0 +1,10 @@
+.row{ :id => "skill-#{skill.css}" }
+  .circle-container.span3
+    .circle
+      %h3= skill.short
+  .bar-container.span5
+    %h3= skill.long
+    %span= skill.grade
+    .expand-bg
+      %span.expand-inview &nbsp;
+

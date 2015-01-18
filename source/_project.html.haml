@@ -1,0 +1,7 @@
+%li
+  %div
+    %a.fancybox-thumb{:href => "images/#{project}.#{data.projects[project].image_ext}", :rel => "fancybox-thumb"}
+      %img{:src => "images/#{project}-thumb.#{data.projects[project].image_ext}"}/
+    %article
+      :markdown
+        #{data.projects[project].description}

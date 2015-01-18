@@ -1,0 +1,96 @@
+---
+MuniRent:
+  image_ext: png
+  description: >
+      I'm the CTO & co-founder of [MuniRent](http://munirent.co).
+
+
+      MuniRent is a website where local governments can rent equipment
+      to each other. I put together the web application in Ruby on
+      Rails, and all the DevOps that goes with hosting a multi-tenant
+      cloud application.
+
+1000tools:
+  image_ext: png
+  description: >
+    Prior to working on MuniRent, I was the CTO & co-founder of
+    [1000tools.com](http://1000tools.com)
+
+
+    1000tools.com is a sharing-economy website where people can share
+    tools locally. The 1000tools.com Ruby on Rails application was the
+    basis for MuniRent.
+
+OpenSesame:
+  image_ext: png
+  description: >
+    OpenSesame is the garage door opener app I put together for my
+    house. It's a cool hack that cost me $0 of materials and has served
+    me well for years now.
+
+
+    The server is in node.js and the physical interface to the garage
+    door opener is hacked through the flow-control pins of a RS232
+    serial port. There is an Android native client with notifications
+    and an HTML5/WebSocket client.
+
+
+    The source for
+    [the server](https://github.com/monkbroc/garage-server)
+    and
+    [the client](https://github.com/monkbroc/garage-client)
+    is on GitHub.
+
+SendToCar:
+  image_ext: png
+  description: >
+    I'm the author of
+    [Send To Car for Android](https://play.google.com/store/apps/details?id=com.jvanier.android.sendtocar)
+    and
+    [Send To Car for iOS](https://itunes.apple.com/us/app/send-to-car/id623123860?mt=8)
+
+
+    Send To Car is an app to send address to car navigation systems. It
+    relives from the pain of having to manually enter an address in the
+    aweful car navigation system interface. Instead, just search for an
+    address on your phone and Send To Car will send it to the nav system
+    in your car. More than a dozen brands work, all over the world.
+
+
+    Send To Car has more than 100,000 downloads, more than official app
+    from brands like BMW and Ford!
+
+
+    The Android version is
+    [free and open soure](https://github.com/monkbroc/SendToCarAndroid).
+    The iOS version is $3.99.
+
+Solstice:
+  image_ext: jpg
+  description: >
+    I developed engine control software for cars like the Pontiac
+    Solstice for 8 years while working at Bosch in the Systems and
+    Advanced Engineering group.
+
+
+    The most fun projects were the ones where I was given a car and had
+    to make it work by putting together an entire engine management
+    system, including engine computer hardware, embedded control
+    software and wiring harness.
+
+coffee:
+  image_ext: jpg
+  description: >
+    I love coffee!
+
+
+    So when I realized that I could make better coffee by having more
+    consistent water temperature in my espresso machine, I took the
+    machine apart, reverse-engineered the water and AC electric
+    circuits, and hooked up a PID controller, a solid-state relay and a
+    thermocouple to add digital temperature control!
+
+
+    Everything fit back inside the box when I was done, so my espresso
+    machine doesn't look like a bomb anymore.
+
