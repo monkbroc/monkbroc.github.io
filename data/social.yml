@@ -1,0 +1,16 @@
+---
+- name: GitHub
+  url: https://github.com/monkbroc
+  image: gh.png
+- name: LinkedIn
+  url: https://www.linkedin.com/in/jvanier
+  image: in.png
+- name: Facebook
+  url: https://www.facebook.com/julien.vanier.1
+  image: fb.png
+- name: Twitter
+  url: https://twitter.com/monkbroc
+  image: tw.png
+- name: Google Plus
+  url: https://plus.google.com/+JulienVanier
+  image: go.png

@@ -1,16 +1,5 @@
 %ul.social-icons
-  %li
-    %a{:href => "https://github.com/monkbroc", :target => "_blank"}
-      %img{:alt => "GitHub", :src => "images/gh.png"}/
-  %li
-    %a{:href => "https://www.linkedin.com/in/jvanier", :target => "_blank"}
-      %img{:alt => "LinkedIn", :src => "images/in.png"}/
-  %li
-    %a{:href => "https://www.facebook.com/julien.vanier.1", :target => "_blank"}
-      %img{:alt => "Facebook", :src => "images/fb.png"}/
-  %li
-    %a{:href => "https://twitter.com/monkbroc", :target => "_blank"}
-      %img{:alt => "Twitter", :src => "images/tw.png"}/
-  %li
-    %a{:href => "https://plus.google.com/+JulienVanier", :target => "_blank"}
-      %img{:alt => "Google Plus", :src => "images/go.png"}/
+  - data.social.each do |network|
+    %li
+      %a{:href => network.url, :target => "_blank"}
+        = image_tag network.image, :title => network.name
