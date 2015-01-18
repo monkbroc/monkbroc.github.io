@@ -5937,18 +5937,26 @@ ul.social-icons {
     ul.social-icons li a:hover {
       opacity: 1; }
 
+@media (max-width: 979px) {
+  /* line 110, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  #bloodbadge .badge-column {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center; } }
 /***** Skills *****/
-/* line 110, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 120, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .circle-container {
   width: 235px;
   overflow: hidden; }
 
-/* line 114, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 124, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .bar-container {
   text-align: left;
   padding: 47px 0; }
 
-/* line 118, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 128, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .circle {
   padding: 25px;
   width: 100px;
@@ -5962,42 +5970,42 @@ ul.social-icons {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
 
-/* line 132, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 142, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .circle h3 {
   color: #fff;
   font-size: 3.4em;
   font-weight: normal;
   line-height: 80px; }
 
-/* line 140, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 150, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-c .circle {
   background: #8A2BE2; }
 
-/* line 146, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 156, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-ruby .circle {
   background: #f04949; }
 
-/* line 152, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 162, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-js .circle {
   background: #30a5dc; }
 
-/* line 158, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 168, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-html .circle {
   background: #ee742b; }
 
-/* line 163, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 173, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-html .circle h3 {
   font-size: 2.2em; }
 
-/* line 168, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 178, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-css .circle {
   background: #39d084; }
 
-/* line 175, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 185, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .circle:hover {
   border: 8px solid #fff; }
 
-/* line 179, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 189, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .expand-bg {
   background: none repeat scroll 0 0 #EAEDF2;
   border-radius: 16px;
@@ -6006,7 +6014,7 @@ ul.social-icons {
   position: relative;
   padding: 0 2px; }
 
-/* line 187, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 197, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .expand {
   border-radius: 10px;
   height: 4px;
@@ -6014,14 +6022,14 @@ ul.social-icons {
   padding: 4px 0 4px 5px;
   position: absolute; }
 
-/* line 194, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 204, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .bar-container h3 {
   font-size: 18.5px;
   line-height: 15px;
   font-weight: normal;
   text-transform: uppercase; }
 
-/* line 202, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 212, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-c .expand {
   width: 98%;
   background: #8A2BE2;
@@ -6044,7 +6052,7 @@ ul.social-icons {
     width: 0px; }
   100% {
     width: 98%; } }
-/* line 213, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 223, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-ruby .expand {
   width: 90%;
   background: #f04949;
@@ -6067,7 +6075,7 @@ ul.social-icons {
     width: 0px; }
   100% {
     width: 90%; } }
-/* line 224, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 234, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-js .expand {
   width: 90%;
   background: #30a5dc;
@@ -6090,7 +6098,7 @@ ul.social-icons {
     width: 0px; }
   100% {
     width: 90%; } }
-/* line 235, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 245, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-html .expand {
   width: 80%;
   background: #ee742b;
@@ -6113,7 +6121,7 @@ ul.social-icons {
     width: 0px; }
   100% {
     width: 80%; } }
-/* line 246, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 256, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #skill-css .expand {
   width: 75%;
   background: #39d084;
@@ -6137,17 +6145,17 @@ ul.social-icons {
   100% {
     width: 75%; } }
 /**** Work container *****/
-/* line 259, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 269, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 ul.work-images li {
   list-style: none;
   display: inline-block;
   margin: 8px 10px; }
 
-/* line 264, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 274, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 ul.work-images li:first-child {
   margin-left: 0; }
 
-/* line 267, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 277, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 ul.work-images li div {
   background: url(../images/eye.png) 50% 50% no-repeat;
   background-color: #f04949;
@@ -6156,48 +6164,48 @@ ul.work-images li div {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
 
-/* line 275, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 285, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 ul.work-images li img {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
 
-/* line 281, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 291, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 ul.work-images li img:hover {
   opacity: 0.1; }
 
 /***** Resume container *****/
-/* line 285, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 295, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #resume h3 {
   margin: 60px 0; }
 
-/* line 288, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 298, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 #resume .btn-center {
   text-align: center; }
 
-/* line 291, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+/* line 301, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
 .footer {
   background: #355267; }
-  /* line 293, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 303, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .footer p {
     margin: 20px 0; }
-  /* line 296, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .footer a {
     color: #fff;
     text-decoration: none; }
-  /* line 300, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 310, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .footer a:hover {
     color: #39d084; }
-  /* line 303, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 313, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .footer .muted {
     color: #999999; }
-  /* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 316, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .footer a.muted:hover, .footer a.muted:focus {
     color: #808080; }
 
 @media (max-width: 979px) {
-  /* line 312, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
+  /* line 322, /home/monkbroc/Website/monkbroc.github.io/source/css/_style-single-page.scss.erb */
   .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
     padding: 5px 25px 5px 25px; } }
 /*
