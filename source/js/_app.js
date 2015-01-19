@@ -20,18 +20,7 @@ $(document).ready(function() {
 			el.find('.expand-inview').addClass('expand');
 		}, 1000);
 	});
-	$("#contact-form").on('submit', function(event) {
-		event.preventDefault();
-		var form = $(this);
-		_gaq.push(['_trackEvent','ContactForm', 'Send']);
-		form.find(".alert").removeClass("hide");
-		$.ajax({
-			url: form.attr('action'),
-			data: form.serialize()
-		});
-		setTimeout(function() { $('#myModal').modal('hide'); }, 1500);
-	});
-	$("#resume .hire-me").on('click', function() {
+	$("#resume .reach-out").on('click', function() {
 		_gaq.push(['_trackEvent','Download','PDF',this.href]);
 	});
 	$(".social-icons a").on('click', function() {
@@ -43,4 +32,36 @@ $(document).ready(function() {
 	$(".work-images a").on('click', function() {
 		_gaq.push(['_trackEvent','Work','Open',this.href]);
 	});
+
+	var Badge = function(selector) {
+		this.$el = $(selector);
+		this.initialWidth = this.$el.width();
+		$(window).on('resize', $.proxy(this.adjustWidth, this));
+		this.adjustWidth();
+	};
+	$.extend(Badge.prototype, {
+		widthOffset: 50,
+		adjustWidth: function() {
+			var currentWidth = $(window).width() - this.widthOffset;
+			if(currentWidth > this.initialWidth) {
+				this.setScale(null);
+			} else {
+				this.setScale(currentWidth * 1.0 / this.initialWidth);
+			}
+		},
+
+		setScale: function(scale) {
+			var transformScale = scale ? "scale(" + scale + ")" : null;
+			this.$el.css({
+				"-ms-zoom": scale,
+				"-moz-transform": transformScale,
+				"-moz-transform-origin": "0 0",
+				"-o-transform": transformScale,
+				"-o-transform-origin": "0 0",
+				"-webkit-transform": transformScale,
+				"-webkit-transform-origin": "0 0",
+			});
+		},
+	});
+	var badge = new Badge("#badge");
 });
