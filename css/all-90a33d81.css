@@ -669,26 +669,26 @@ th {
     background-image: url("fancybox_loading@2x.gif");
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/ } }
-/* line 15, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 16, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 body {
   font-family: "Droid Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #413E3B; }
 
-/* line 21, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 22, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 p {
   line-height: 1.8;
   margin: 8px 0; }
 
-/* line 26, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 27, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 a {
   color: #1B5C8C; }
 
-/* line 30, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 31, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .page-header {
   background-color: #1B5C8C; }
   @media (min-width: 1000px) {
-    /* line 30, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 31, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .page-header {
       position: fixed;
       top: 0;
@@ -696,19 +696,19 @@ a {
       left: 0;
       width: 325px; } }
 
-/* line 42, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 43, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .page-content {
   margin: 0 8px; }
   @media (min-width: 1000px) {
-    /* line 42, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 43, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .page-content {
       margin-left: 400px; } }
 
-/* line 49, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 50, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .page-content-header {
   margin-bottom: 50px; }
   @media (min-width: 1000px) {
-    /* line 49, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 50, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .page-content-header {
       min-height: 200px;
       background-size: cover;
@@ -716,16 +716,16 @@ a {
       margin-left: 325px; } }
 
 @media (min-width: 1000px) {
-  /* line 60, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 61, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-content section {
     max-width: 700px; } }
 
 @media (min-width: 1000px) {
-  /* line 66, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 67, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-footer {
     margin-left: 400px; } }
 @media (min-height: 550px) and (min-width: 1000px) {
-  /* line 66, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 67, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-footer {
     margin-left: 0;
     position: fixed;
@@ -734,7 +734,7 @@ a {
     width: 325px;
     z-index: 1; } }
 
-/* line 80, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 81, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .logo {
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -749,27 +749,27 @@ a {
   box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
   border-radius: 100%; }
 
-/* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 97, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .nav-primary {
   list-style: none;
   padding: 0;
   margin: 0; }
   @media (max-width: 999px) {
-    /* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 97, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .nav-primary {
       padding: 1px 0; } }
   @media (min-width: 1000px) {
-    /* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 97, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .nav-primary {
       margin: 20px auto; } }
-  /* line 107, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 108, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .nav-primary .nav-item {
     margin: 20px 40px; }
     @media (min-width: 1000px) {
-      /* line 107, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+      /* line 108, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
       .nav-primary .nav-item {
         margin-left: 115px; } }
-  /* line 113, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 114, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .nav-primary .nav-link {
     border-left: 3px solid transparent;
     color: white;
@@ -779,205 +779,227 @@ a {
     line-height: 50px;
     text-decoration: none;
     transition: all 0.25s; }
-    /* line 123, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 124, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .nav-primary .nav-link:hover {
       text-decoration: none;
       border-color: #FFAC31; }
-    /* line 128, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 129, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .nav-primary .nav-link.active {
       border-color: #FFAC31;
       background-color: #1f6aa1; }
 
-/* line 136, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 137, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .social {
   text-align: center;
   padding: 10px 0; }
 
-/* line 141, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 142, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 ul.social-icons {
   margin: 20px 0;
   padding: 0; }
-  /* line 144, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 145, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   ul.social-icons li {
     list-style: none;
     display: inline-block;
     margin: 10px; }
-  /* line 149, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 150, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   ul.social-icons li:first-child {
     margin-left: 0; }
+  @media (max-width: 699px) {
+    /* line 154, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    ul.social-icons img {
+      max-width: 36px;
+      max-height: 36px; } }
 
-/* line 156, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 163, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .logo {
   background-image: url("/images/head-279425a1.jpg"); }
 
-/* line 160, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 167, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .profile-name {
   font-family: Domine, Georgia, serif;
   font-size: 40px; }
 
-/* line 165, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 172, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .profile-blurb {
   margin-top: 30px; }
 
-/* line 169, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 176, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .article-lists, .project-lists {
   list-style: none;
   padding: 0;
   margin-top: 40px; }
 
-/* line 175, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 182, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .article {
   padding: 35px 0 30px 0;
   line-height: 1.4;
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
-  /* line 179, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 186, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .article a {
     color: #413E3B;
     text-decoration: none; }
 
-/* line 185, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 192, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .article-title {
-  font-size: 24px;
-  font-weight: bold; }
-
-/* line 190, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
-.article-summary {
+  font-weight: bold;
   font-size: 18px; }
+  @media (min-width: 700px) {
+    /* line 192, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .article-title {
+      font-size: 24px; } }
 
-/* line 194, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 200, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-summary {
+  font-size: 16px; }
+  @media (min-width: 700px) {
+    /* line 200, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .article-summary {
+      font-size: 18px; } }
+
+/* line 207, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .article-publication {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.4); }
+  @media (max-width: 699px) {
+    /* line 207, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .article-publication {
+      font-size: 14px; } }
 
-/* line 199, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 215, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .article-image {
   float: right;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-bottom: 10px; }
+  @media (max-width: 699px) {
+    /* line 215, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .article-image {
+      max-height: 90px; } }
 
-/* line 205, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 225, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project {
   margin-top: 30px;
   padding: 20px; }
-  /* line 209, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 229, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .project:hover {
     cursor: pointer; }
-    /* line 212, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 232, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .project:hover .project-image {
       opacity: 0.5; }
-    /* line 215, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 235, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .project:hover .project-see-more {
       opacity: 0.8; }
 
-/* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 241, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-image {
   width: 125px;
   height: 125px;
   transition: all 0.25s; }
   @media (max-width: 699px) {
-    /* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 241, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .project-image {
       margin: 0 auto 20px auto;
       display: block; } }
   @media (min-width: 700px) {
-    /* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 241, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .project-image {
       float: left; } }
 
-/* line 234, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 254, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-see-more {
   z-index: 1;
   position: absolute;
   opacity: 0;
   transition: all 0.25s; }
   @media (max-width: 699px) {
-    /* line 234, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 254, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .project-see-more {
       left: calc(50% - 62.5px); } }
 
 @media (min-width: 700px) {
-  /* line 244, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 264, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .project-details {
     margin-left: 150px; } }
 
-/* line 250, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 270, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-title {
   font-size: 24px;
   font-weight: bold; }
 
-/* line 255, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 275, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .page-footer {
   font-size: 14px;
   margin-bottom: 30px; }
-  /* line 259, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 279, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-footer .social-icons {
     margin: 0; }
-  /* line 262, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 282, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-footer .fa, .page-footer .copyright {
     color: #413E3B; }
     @media (min-height: 550px) and (min-width: 1000px) {
-      /* line 262, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+      /* line 282, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
       .page-footer .fa, .page-footer .copyright {
         color: white; } }
-  /* line 268, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 288, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-footer .fa {
     font-size: 24px; }
   @media (min-height: 550px) {
-    /* line 255, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    /* line 275, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
     .page-footer {
       text-align: center; } }
 
-/* line 276, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 296, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 section.blog {
   min-height: 1000px; }
 
 @media (max-width: 999px) {
-  /* line 281, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 301, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-header h1 {
     display: none; } }
 @media (min-width: 500px) and (max-width: 999px) {
-  /* line 286, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .profile-photo.logo {
     float: left;
     margin-right: 40px; } }
 @media (min-width: 1000px) {
-  /* line 286, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .profile-photo.logo {
     display: none; } }
 
-/* line 298, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 318, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-munirent {
   background-color: #E3EAF5; }
 
-/* line 302, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 322, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-1000tools {
   background-color: #F5F5DC; }
 
-/* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 326, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .project-sendtocar {
   background-color: #DEFFE9; }
 
 @media (min-width: 1000px) {
-  /* line 311, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 331, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-content-header.about {
     /* Photo by Carli Jean
      * https://unsplash.com/carlijeanmiller
      */
     background-image: url("/images/coffee-swirl-b637d80a.jpg"); }
 
-  /* line 318, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 338, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-content-header.projects {
     /* Photo by Vita Vilcina
      * https://unsplash.com/vivivi
      */
     background-image: url("/images/brooklyn-bridge-7308eac5.jpg"); }
 
-  /* line 325, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  /* line 345, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
   .page-content-header.blog {
     /* Photo by Alejandro Escamilla
      * https://unsplash.com/alejandroescamilla
      */
     background-image: url("/images/book-30ca8e03.jpg"); } }
-/* line 333, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+/* line 353, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
 .signature {
   font-family: Domine, Georgia, serif;
   margin: 40px;
