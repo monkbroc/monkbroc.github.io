@@ -7,6 +7,7 @@ $content-offset: $sidebar-width + 75px;
 $nav-highlight-color: #FFAC31;
 $responsive-width: 1000px;
 $project-width: 700px;
+$article-width: 700px;
 
 $footer-bottom-height: 550px;
 
@@ -149,6 +150,12 @@ ul.social-icons {
   li:first-child {
     margin-left: 0;
   }
+  @media (max-width: $article-width - 1px) {
+	img {
+	  max-width: 36px;
+	  max-height: 36px;
+	}
+  }
 }
 
 // Project
@@ -183,22 +190,35 @@ ul.social-icons {
 }
 
 .article-title {
-  font-size: 24px;
   font-weight: bold;
+  font-size: 18px;
+  @media (min-width: $article-width) {
+	font-size: 24px;
+  }
 }
 
 .article-summary {
-  font-size: 18px;
+  font-size: 16px;
+  @media (min-width: $article-width) {
+	font-size: 18px;
+  }
 }
 
 .article-publication {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.4);
+  @media (max-width: $article-width - 1px) {
+	font-size: 14px;
+  }
 }
 
 .article-image {
   float: right;
   margin-left: 10px;
+  margin-bottom: 10px;
+  @media (max-width: $article-width - 1px) {
+	max-height: 90px;
+  }
 }
 
 
