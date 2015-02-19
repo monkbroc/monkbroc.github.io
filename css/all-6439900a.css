@@ -1,0 +1,984 @@
+/*
+ * Add external CSS here to keep main file clean
+ *
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 10, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 53, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 66, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 76, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 88, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 96, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 108, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 116, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 125, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 134, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 143, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 152, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 160, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 168, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 172, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 183, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 191, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 202, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 210, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 220, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 228, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 251, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 265, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 276, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 289, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 301, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 310, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 321, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 333, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 345, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 356, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 369, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 378, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 389, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 398, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 407, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 418, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 423, /home/monkbroc/Website/monkbroc.github.io/bower_components/normalize-scss/normalize.css */
+td,
+th {
+  padding: 0; }
+
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 3, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  vertical-align: top; }
+
+/* line 21, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8020; }
+
+/* line 28, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-skin {
+  position: relative;
+  background: #f9f9f9;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 38, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-opened {
+  z-index: 8030; }
+
+/* line 42, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
+
+/* line 48, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-outer, .fancybox-inner {
+  position: relative; }
+
+/* line 52, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-inner {
+  overflow: hidden; }
+
+/* line 56, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-type-iframe .fancybox-inner {
+  -webkit-overflow-scrolling: touch; }
+
+/* line 60, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-error {
+  color: #444;
+  font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 15px;
+  white-space: nowrap; }
+
+/* line 68, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-image, .fancybox-iframe {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+/* line 74, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-image {
+  max-width: 100%;
+  max-height: 100%; }
+
+/* line 79, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url("fancybox_sprite-17df19f9.png"); }
+
+/* line 83, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background-position: 0 -108px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 8060; }
+
+/* line 95, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+#fancybox-loading div {
+  width: 44px;
+  height: 44px;
+  background: url("fancybox_loading-1a755fb2.gif") center center no-repeat; }
+
+/* line 101, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 8040; }
+
+/* line 111, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-nav {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent url("blank.gif");
+  /* helps IE */
+  -webkit-tap-highlight-color: transparent;
+  z-index: 8040; }
+
+/* line 123, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-prev {
+  left: 0; }
+
+/* line 127, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-next {
+  right: 0; }
+
+/* line 131, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-nav span {
+  position: absolute;
+  top: 50%;
+  width: 36px;
+  height: 34px;
+  margin-top: -18px;
+  cursor: pointer;
+  z-index: 8040;
+  visibility: hidden; }
+
+/* line 142, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-prev span {
+  left: 10px;
+  background-position: 0 -36px; }
+
+/* line 147, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-next span {
+  right: 10px;
+  background-position: 0 -72px; }
+
+/* line 152, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-nav:hover span {
+  visibility: visible; }
+
+/* line 156, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-tmp {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  visibility: hidden;
+  max-width: 99999px;
+  max-height: 99999px;
+  overflow: visible !important; }
+
+/* Overlay helper */
+/* line 168, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-lock {
+  overflow: hidden !important;
+  width: auto; }
+
+/* line 173, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-lock body {
+  overflow: hidden !important; }
+
+/* line 177, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-lock-test {
+  overflow-y: hidden !important; }
+
+/* line 181, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: url("fancybox_overlay-b3a4ee64.png"); }
+
+/* line 191, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-overlay-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+/* line 197, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-lock .fancybox-overlay {
+  overflow: auto;
+  overflow-y: scroll; }
+
+/* Title helper */
+/* line 204, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title {
+  visibility: hidden;
+  font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  text-shadow: none;
+  z-index: 8050; }
+
+/* line 212, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-opened .fancybox-title {
+  visibility: visible; }
+
+/* line 216, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 8050;
+  text-align: center; }
+
+/* line 225, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title-float-wrap .child {
+  display: inline-block;
+  margin-right: -100%;
+  padding: 2px 20px;
+  background: transparent;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px #222;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 24px;
+  white-space: nowrap; }
+
+/* line 241, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 10px;
+  color: #fff; }
+
+/* line 247, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title-inside-wrap {
+  padding-top: 10px; }
+
+/* line 251, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8); }
+
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 266, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url("fancybox_sprite@2x.png");
+    background-size: 44px 152px;
+    /*The size of the normal image, half the size of the hi-res image*/ }
+
+  /* line 271, /home/monkbroc/Website/monkbroc.github.io/bower_components/fancybox/source/jquery.fancybox.css */
+  #fancybox-loading div {
+    background-image: url("fancybox_loading@2x.gif");
+    background-size: 24px 24px;
+    /*The size of the normal image, half the size of the hi-res image*/ } }
+/* line 15, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+body {
+  font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #413E3B; }
+
+/* line 21, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+p {
+  line-height: 1.8;
+  margin: 8px 0; }
+
+/* line 26, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+a {
+  color: #1B5C8C; }
+
+/* line 30, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.page-header {
+  background-color: #1B5C8C; }
+  @media (min-width: 1000px) {
+    /* line 30, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .page-header {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 325px; } }
+
+/* line 42, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.page-content {
+  margin: 0 8px; }
+  @media (min-width: 1000px) {
+    /* line 42, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .page-content {
+      margin-left: 400px; } }
+
+/* line 49, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.page-content-header {
+  margin-bottom: 50px; }
+  @media (min-width: 1000px) {
+    /* line 49, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .page-content-header {
+      min-height: 200px;
+      background-size: cover;
+      background-position: center;
+      margin-left: 325px; } }
+
+@media (min-width: 1000px) {
+  /* line 60, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-content section {
+    max-width: 700px; } }
+
+@media (min-width: 1000px) {
+  /* line 66, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-footer {
+    margin-left: 400px; } }
+@media (min-height: 550px) and (min-width: 1000px) {
+  /* line 66, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-footer {
+    margin-left: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 325px;
+    z-index: 1; } }
+
+/* line 80, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.logo {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  text-indent: -1000px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 100%; }
+
+/* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.nav-primary {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  @media (max-width: 999px) {
+    /* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .nav-primary {
+      padding: 1px 0; } }
+  @media (min-width: 1000px) {
+    /* line 96, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .nav-primary {
+      margin: 20px auto; } }
+  /* line 107, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .nav-primary .nav-item {
+    margin: 20px 40px; }
+    @media (min-width: 1000px) {
+      /* line 107, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+      .nav-primary .nav-item {
+        margin-left: 115px; } }
+  /* line 113, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .nav-primary .nav-link {
+    border-left: 3px solid transparent;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    overflow: hidden;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all 0.25s; }
+    /* line 123, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .nav-primary .nav-link:hover {
+      text-decoration: none;
+      border-color: #FFAC31; }
+    /* line 128, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .nav-primary .nav-link.active {
+      border-color: #FFAC31;
+      background-color: #1f6aa1; }
+
+/* line 136, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.social {
+  text-align: center;
+  padding: 10px 0; }
+
+/* line 141, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+ul.social-icons {
+  margin: 20px 0;
+  padding: 0; }
+  /* line 144, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  ul.social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px; }
+  /* line 149, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  ul.social-icons li:first-child {
+    margin-left: 0; }
+
+/* line 156, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.logo {
+  background-image: url("/images/head-279425a1.jpg"); }
+
+/* line 160, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.profile-name {
+  font-family: Domine, Georgia, serif;
+  font-size: 40px; }
+
+/* line 165, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.profile-blurb {
+  margin-top: 30px; }
+
+/* line 169, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-lists, .project-lists {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px; }
+
+/* line 175, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article {
+  padding: 35px 0 30px 0;
+  line-height: 1.4;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  /* line 179, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .article a {
+    color: #413E3B;
+    text-decoration: none; }
+
+/* line 185, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-title {
+  font-size: 24px;
+  font-weight: bold; }
+
+/* line 190, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-summary {
+  font-size: 18px; }
+
+/* line 194, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-publication {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.4); }
+
+/* line 199, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.article-image {
+  float: right;
+  margin-left: 10px; }
+
+/* line 205, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project {
+  margin-top: 30px;
+  padding: 20px; }
+  /* line 209, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .project:hover {
+    cursor: pointer; }
+    /* line 212, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .project:hover .project-image {
+      opacity: 0.5; }
+    /* line 215, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .project:hover .project-see-more {
+      opacity: 0.8; }
+
+/* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-image {
+  width: 125px;
+  height: 125px;
+  transition: all 0.25s; }
+  @media (max-width: 699px) {
+    /* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .project-image {
+      margin: 0 auto 20px auto;
+      display: block; } }
+  @media (min-width: 700px) {
+    /* line 221, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .project-image {
+      float: left; } }
+
+/* line 234, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-see-more {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.25s; }
+  @media (max-width: 699px) {
+    /* line 234, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .project-see-more {
+      left: calc(50% - 62.5px); } }
+
+@media (min-width: 700px) {
+  /* line 244, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .project-details {
+    margin-left: 150px; } }
+
+/* line 250, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-title {
+  font-size: 24px;
+  font-weight: bold; }
+
+/* line 255, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.page-footer {
+  font-size: 14px;
+  margin-bottom: 30px; }
+  /* line 259, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-footer .social-icons {
+    margin: 0; }
+  /* line 262, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-footer .fa, .page-footer .copyright {
+    color: #413E3B; }
+    @media (min-height: 550px) and (min-width: 1000px) {
+      /* line 262, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+      .page-footer .fa, .page-footer .copyright {
+        color: white; } }
+  /* line 268, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-footer .fa {
+    font-size: 24px; }
+  @media (min-height: 550px) {
+    /* line 255, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+    .page-footer {
+      text-align: center; } }
+
+/* line 276, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+section.blog {
+  min-height: 1000px; }
+
+@media (max-width: 999px) {
+  /* line 281, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-header h1 {
+    display: none; } }
+@media (min-width: 500px) and (max-width: 999px) {
+  /* line 286, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .profile-photo.logo {
+    float: left;
+    margin-right: 40px; } }
+@media (min-width: 1000px) {
+  /* line 286, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .profile-photo.logo {
+    display: none; } }
+
+/* line 298, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-munirent {
+  background-color: #E3EAF5; }
+
+/* line 302, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-1000tools {
+  background-color: #F5F5DC; }
+
+/* line 306, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.project-sendtocar {
+  background-color: #DEFFE9; }
+
+@media (min-width: 1000px) {
+  /* line 311, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-content-header.about {
+    /* Photo by Carli Jean
+     * https://unsplash.com/carlijeanmiller
+     */
+    background-image: url("/images/coffee-swirl-b637d80a.jpg"); }
+
+  /* line 318, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-content-header.projects {
+    /* Photo by Vita Vilcina
+     * https://unsplash.com/vivivi
+     */
+    background-image: url("/images/brooklyn-bridge-7308eac5.jpg"); }
+
+  /* line 325, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+  .page-content-header.blog {
+    /* Photo by Alejandro Escamilla
+     * https://unsplash.com/alejandroescamilla
+     */
+    background-image: url("/images/book-30ca8e03.jpg"); } }
+/* line 333, /home/monkbroc/Website/monkbroc.github.io/source/css/all.scss */
+.signature {
+  font-family: Domine, Georgia, serif;
+  margin: 40px;
+  font-size: 20px; }
