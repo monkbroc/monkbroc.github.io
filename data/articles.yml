@@ -1,0 +1,10 @@
+---
+- title: Environment Variables, the Ruby way
+  summary: Use Nenv for clean access to the environment
+  url: https://medium.com/@jvanier/environment-variables-the-ruby-way-44d1b9ca5b1
+  publication_date: '2015/01/17'
+- title: OmniAuth on Rails
+  summary: How to simplify signing in to a Ruby on Rails application by using accounts people already have
+  url: https://medium.com/@jvanier/omniauth-on-rails-4e0180e6a69e
+  image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/140/110/1*3s6PqlgLX3qcnZ_16l1G6Q.jpeg
+  publication_date: '2015/02/18'

@@ -1,0 +1,14 @@
+= partial 'page_header'
+
+.page-content
+  %h2 My Work
+  %p Here are some interesting projects I've worked on over the years.
+  %ul.work-images
+    - %w(MuniRent 1000tools OpenSesame).each do |project|
+      = partial 'project', :object => project
+  %ul.work-images
+    - %w(Solstice SendToCar coffee).each do |project|
+      = partial 'project', :object => project
+
+.social
+  = partial 'social-icons'

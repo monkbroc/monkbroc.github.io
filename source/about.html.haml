@@ -1,0 +1,8 @@
+= partial 'page_header'
+
+.page-content
+  %h2 My Skills
+  - data.skills.each do |skill|
+    = partial 'skill', :object => skill
+
+

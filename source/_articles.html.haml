@@ -1,0 +1,10 @@
+%ul.articles
+  - data.articles.reverse.each do |article|
+    %li.article
+      %a{:href => article.url}
+        - if article.image_url
+          %img.article-image{src: article.image_url}
+        .article-title= article.title
+        .article-summary= article.summary
+        .article-publication Published on #{date_short article.publication_date}
+
