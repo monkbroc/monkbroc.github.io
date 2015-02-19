@@ -3,9 +3,32 @@ title: "About me"
 ---
 = partial 'header'
 
+.page-content-header.about
 .page-content
-  %h2 My Skills
-  - data.skills.each do |skill|
-    = partial 'skill', :object => skill
+  %section
+    %h2= data.page.title
 
+    %p
+      My background is in computer engineering. I graduated from McGill
+      University in Montreal in 2005.
+    %p
+      I worked for 9 years in the Detroit, MI area for Bosch, a large
+      automotive supplier, doing embedded engine controls in C.
+    %p
+      At that point, I decided to reboot my career and to found a
+      startup with a long time friend of mine.  Alan Mond and I started
+      #{link_to "MuniRent", "http://munirent.co"} in 2014.
+    
+    %p
+      When I'm not busy exploring the latest fad in web and application
+      development, I like to spend time playing with my two kids and
+      going skiing.
+
+    %h3 Get in touch
+    
+    %p
+      If you want to get in touch with me, just reach out through social
+      media. I look forward to meeting you!
+
+    .signature Julien Vanier
 = partial 'footer'

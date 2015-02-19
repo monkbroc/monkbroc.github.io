@@ -5,7 +5,8 @@ $sidebar-color: #1B5C8C;
 $sidebar-width: 325px;
 $content-offset: $sidebar-width + 75px;
 $nav-highlight-color: #FFAC31;
-$responsive-width: 600px;
+$responsive-width: 1000px;
+$project-width: 700px;
 
 $footer-bottom-height: 550px;
 
@@ -39,20 +40,34 @@ a {
 }
 
 .page-content {
-  margin-left: $content-offset;
+  margin: 0 8px;
+  @media (min-width: $responsive-width) {
+	margin-left: $content-offset;
+  }
 }
 
 .page-content-header {
-  min-height: 80px;
+  margin-bottom: 50px;
+
+  @media (min-width: $responsive-width) {
+	min-height: 200px;
+	background-size: cover;
+	background-position: center;
+	margin-left: $sidebar-width;
+  }
 }
 
 .page-content section {
-  max-width: 700px;
+  @media (min-width: $responsive-width) {
+	max-width: 700px;
+  }
 }
 
 .page-footer {
-  margin-left: $content-offset;
-  @media (min-height: $footer-bottom-height) {
+  @media (min-width: $responsive-width) {
+	margin-left: $content-offset;
+  }
+  @media (min-height: $footer-bottom-height) and (min-width: $responsive-width) {
     margin-left: 0;
     position: fixed;
     bottom: 0;
@@ -81,10 +96,19 @@ a {
 .nav-primary {
   list-style: none;
   padding: 0;
-  margin: 20px auto;
+  margin: 0;
+  @media (max-width: $responsive-width - 1px) {
+	padding: 1px 0;
+  }
+  @media (min-width: $responsive-width) {
+	margin: 20px auto;
+  }
 
   .nav-item {
-    margin: 20px 40px 20px 115px;	
+	margin: 20px 40px;
+	@media (min-width: $responsive-width) {
+	  margin-left: 115px;	
+	}
   }
   .nav-link {
     border-left: 3px solid transparent;
@@ -142,7 +166,7 @@ ul.social-icons {
   margin-top: 30px;
 }
 
-.articles, .projects {
+.article-lists, .project-lists {
   list-style:none;
   padding: 0;
   margin-top: 40px;
@@ -195,10 +219,16 @@ ul.social-icons {
 }
 
 .project-image {
-  float: left;
   width: 125px;
   height: 125px;
   transition: all 0.25s;
+  @media (max-width: $project-width - 1px) {
+	margin: 0 auto 20px auto;
+	display: block;
+  }
+  @media (min-width: $project-width) {
+	float: left;
+  }
 }
 
 .project-see-more {
@@ -206,10 +236,15 @@ ul.social-icons {
   position: absolute;
   opacity: 0;
   transition: all 0.25s;
+  @media (max-width: $project-width - 1px) {
+	left: calc(50% - 62.5px);
+  }
 }
 
 .project-details {
-  margin-left: 150px;
+  @media (min-width: $project-width) {
+	margin-left: 150px;
+  }
 }
 
 .project-title {
@@ -226,7 +261,7 @@ ul.social-icons {
   }
   .fa, .copyright {
     color: $body-text-color;
-    @media (min-height: $footer-bottom-height) {
+    @media (min-height: $footer-bottom-height) and (min-width: $responsive-width) {
       color: white;
     }
   }
@@ -235,6 +270,26 @@ ul.social-icons {
   }
   @media (min-height: $footer-bottom-height) {
     text-align: center;
+  }
+}
+
+section.blog {
+  min-height: 1000px;
+}
+
+@media (max-width: $responsive-width - 1px) {
+  .page-header h1 {
+	display: none;
+  }
+}
+
+.profile-photo.logo {
+  @media (min-width: 500px) and (max-width: $responsive-width - 1px) {
+	float: left;
+	margin-right: 40px;
+  }
+  @media (min-width: $responsive-width) {
+	display: none;
   }
 }
 
@@ -251,3 +306,33 @@ ul.social-icons {
 .project-sendtocar {
   background-color: #DEFFE9;
 }
+
+@media (min-width: $responsive-width) {
+  .page-content-header.about {
+	/* Photo by Carli Jean
+	 * https://unsplash.com/carlijeanmiller
+	 */
+	background-image: image-url("coffee-swirl.jpg");
+  }
+
+  .page-content-header.projects {
+	/* Photo by Vita Vilcina
+	 * https://unsplash.com/vivivi
+	 */
+	background-image: image-url("brooklyn-bridge.jpg");
+  }
+
+  .page-content-header.blog {
+	/* Photo by Alejandro Escamilla
+	 * https://unsplash.com/alejandroescamilla
+	 */
+	background-image: image-url("book.jpg");
+  }
+}
+
+.signature {
+  font-family: Domine, Georgia, serif;
+  margin: 40px;
+  font-size: 20px;
+}
+
