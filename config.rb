@@ -40,6 +40,9 @@ configure :development do
   activate :livereload
 end
 
+# Render page.html.haml to page/index.html
+activate :directory_indexes
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

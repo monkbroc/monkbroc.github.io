@@ -1,4 +1,4 @@
-= partial 'page_header'
+= partial 'header'
 
 .page-content
   .page-content-header
@@ -10,24 +10,10 @@
       I'm currently the CTO of
       = succeed "." do
         %a{:href => "http://munirent.co"} MuniRent
-    %p
-      I've always enjoyed creating computer solutions to solve all kinds
-      of challenges.
-    %p See my work on GitHub, or connect on LinkedIn
+      See my work on GitHub, or connect on LinkedIn.
     .row.social
       = partial 'social-icons'
 
     = partial 'articles'
 
-    .social
-      = partial 'social-icons'
-
-.footer
-  .container
-    %p.pull-left
-      %a.muted{:href => "http://dzyngiri.com"} Template by www.dzyngiri.com
-    %p.pull-right
-      %a{"data-target" => "#myModal", "data-toggle" => "modal", :href => "#", :role => "button"}
-        %i.icon-mail
-        CONTACT JULIEN
-
+= partial 'footer'

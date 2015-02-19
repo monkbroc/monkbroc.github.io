@@ -3,6 +3,6 @@
   "description": "Personal website of Julien Vanier",
   "version": "1.0.0",
   "dependencies": {
-    "normalize-scss": "~3.0.2"
+    "normalize-scss": "~3.0.2",
   }
 }

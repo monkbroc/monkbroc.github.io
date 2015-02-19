@@ -2,8 +2,12 @@
 
 $body-text-color: #413E3B;
 $sidebar-color: #1B5C8C;
+$sidebar-width: 325px;
+$content-offset: $sidebar-width + 75px;
 $nav-highlight-color: #FFAC31;
 $responsive-width: 600px;
+
+$footer-bottom-height: 550px;
 
 // Base
 
@@ -11,6 +15,11 @@ body {
   font-family: "Droid Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: $body-text-color;
+}
+
+p {
+  line-height: 1.8;
+  margin: 8px 0;
 }
 
 a {
@@ -25,12 +34,12 @@ a {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 325px;
+    width: $sidebar-width;
   }
 }
 
 .page-content {
-  margin-left: 400px;
+  margin-left: $content-offset;
 }
 
 .page-content-header {
@@ -39,6 +48,18 @@ a {
 
 .page-content section {
   max-width: 700px;
+}
+
+.page-footer {
+  margin-left: $content-offset;
+  @media (min-height: $footer-bottom-height) {
+    margin-left: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: $sidebar-width;
+    z-index: 1;
+  }
 }
 
 .logo {
@@ -63,7 +84,7 @@ a {
   margin: 20px auto;
 
   .nav-item {
-    margin: 10px 0 10px 115px;	
+    margin: 20px 0 20px 115px;	
   }
   .nav-link {
     display: inline-block;
@@ -72,7 +93,7 @@ a {
     display: block;
     padding: 0 10px;
     overflow: hidden;
-    line-height: 35px;
+    line-height: 50px;
     text-decoration: none;
     transition: all 0.25s;
 
@@ -86,11 +107,12 @@ a {
 
 .social {
   text-align:center;
-  padding-bottom:80px;
+  padding: 10px 0;
 }
 
 ul.social-icons {
   margin: 20px 0;
+  padding: 0;
   li {
     list-style: none;
     display: inline-block;
@@ -99,16 +121,12 @@ ul.social-icons {
   li:first-child {
     margin-left: 0;
   }
-  li a {
-    opacity: 0.9;
-    &:hover {
-      opacity: 1;
-    }
-  }
 }
 
 .articles {
   list-style:none;
+  padding: 0;
+  margin-top: 40px;
 }
 
 .article {
@@ -153,6 +171,27 @@ ul.social-icons {
 
 .profile-blurb {
   margin-top: 30px;
+}
+
+.page-footer {
+  font-size: 14px;
+  margin-bottom: 30px;
+
+  .social-icons {
+    margin: 0;
+  }
+  .fa, .copyright {
+    color: $body-text-color;
+    @media (min-height: $footer-bottom-height) {
+      color: white;
+    }
+  }
+  .fa {
+    font-size: 24px;
+  }
+  @media (min-height: $footer-bottom-height) {
+    text-align: center;
+  }
 }
 
 // Cosmetic

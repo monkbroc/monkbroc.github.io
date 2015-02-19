@@ -1,6 +1,6 @@
 ---
-MuniRent:
-  image_ext: png
+- title: MuniRent
+  image: MuniRent.png
   description: >
       I'm the CTO & co-founder of [MuniRent](http://munirent.co).
 
@@ -10,8 +10,8 @@ MuniRent:
       Rails, and all the DevOps that goes with hosting a multi-tenant
       cloud application.
 
-1000tools:
-  image_ext: png
+- title: 1000tools
+  image: 1000tools.png
   description: >
     Prior to working on MuniRent, I was the CTO & co-founder of
     [1000tools.com](http://1000tools.com)
@@ -21,8 +21,8 @@ MuniRent:
     tools locally. The 1000tools.com Ruby on Rails application was the
     basis for MuniRent.
 
-OpenSesame:
-  image_ext: png
+- title: Open Sesame
+  image: OpenSesame.png
   description: >
     OpenSesame is the garage door opener app I put together for my
     house. It's a cool hack that cost me $0 of materials and has served
@@ -41,8 +41,8 @@ OpenSesame:
     [the client](https://github.com/monkbroc/garage-client)
     is on GitHub.
 
-SendToCar:
-  image_ext: png
+- title: Send To Car
+  image: SendToCar.png
   description: >
     I'm the author of
     [Send To Car for Android](https://play.google.com/store/apps/details?id=com.jvanier.android.sendtocar)
@@ -65,8 +65,8 @@ SendToCar:
     [free and open soure](https://github.com/monkbroc/SendToCarAndroid).
     The iOS version is $3.99.
 
-Solstice:
-  image_ext: jpg
+- title: Engine control
+  image: Solstice.jpg
   description: >
     I developed engine control software for cars like the Pontiac
     Solstice for 8 years while working at Bosch in the Systems and
@@ -78,8 +78,8 @@ Solstice:
     system, including engine computer hardware, embedded control
     software and wiring harness.
 
-coffee:
-  image_ext: jpg
+- title: Coffee machine mods
+  image: coffee.jpg
   description: >
     I love coffee!
 

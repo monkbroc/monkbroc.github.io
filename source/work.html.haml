@@ -1,14 +1,13 @@
-= partial 'page_header'
+---
+title: "My projects"
+---
+= partial 'header'
 
 .page-content
-  %h2 My Work
+  %h2= data.page.title
   %p Here are some interesting projects I've worked on over the years.
-  %ul.work-images
-    - %w(MuniRent 1000tools OpenSesame).each do |project|
-      = partial 'project', :object => project
-  %ul.work-images
-    - %w(Solstice SendToCar coffee).each do |project|
+  %ul.projects
+    - data.projects.each do |project|
       = partial 'project', :object => project
 
-.social
-  = partial 'social-icons'
+= partial 'footer'

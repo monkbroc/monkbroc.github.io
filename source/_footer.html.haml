@@ -1,0 +1,8 @@
+.page-footer
+  %ul.social-icons
+    - data.social.each do |network|
+      %li
+        %a{:href => network.url, :target => "_blank"}
+          %i{:class => network.icon}
+
+  .copyright &copy; #{Time.current.year} Julien Vanier

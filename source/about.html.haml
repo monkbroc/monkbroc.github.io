@@ -1,8 +1,11 @@
-= partial 'page_header'
+---
+title: "About me"
+---
+= partial 'header'
 
 .page-content
   %h2 My Skills
   - data.skills.each do |skill|
     = partial 'skill', :object => skill
 
-
+= partial 'footer'
