@@ -4,10 +4,12 @@ title: "My projects"
 = partial 'header'
 
 .page-content
-  %h2= data.page.title
-  %p Here are some interesting projects I've worked on over the years.
-  %ul.projects
-    - data.projects.each do |project|
-      = partial 'project', :object => project
+  .page-content-header
+  %section.work
+    %h2= data.page.title
+    %p Here are some interesting projects I've worked on over the years.
+    %ul.projects
+      - data.projects.each do |project|
+        = partial 'project', :object => project
 
 = partial 'footer'

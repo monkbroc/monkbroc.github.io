@@ -84,10 +84,9 @@ a {
   margin: 20px auto;
 
   .nav-item {
-    margin: 20px 0 20px 115px;	
+    margin: 20px 40px 20px 115px;	
   }
   .nav-link {
-    display: inline-block;
     border-left: 3px solid transparent;
     color: white;
     display: block;
@@ -100,6 +99,11 @@ a {
     &:hover {
       text-decoration: none;
       border-color: $nav-highlight-color;
+    }
+
+    &.active {
+      border-color: $nav-highlight-color;
+      background-color: lighten($sidebar-color, 5%);
     }
   }
 }
@@ -123,7 +127,22 @@ ul.social-icons {
   }
 }
 
-.articles {
+// Project
+
+.logo {
+  background-image: image-url("head.jpg");
+}
+
+.profile-name {
+  font-family: Domine, Georgia, serif;
+  font-size: 40px;
+}
+
+.profile-blurb {
+  margin-top: 30px;
+}
+
+.articles, .projects {
   list-style:none;
   padding: 0;
   margin-top: 40px;
@@ -158,19 +177,44 @@ ul.social-icons {
   margin-left: 10px;
 }
 
-// Project
 
-.logo {
-  background-image: image-url("head.jpg");
-}
-
-.profile-name {
-  font-family: Domine, Georgia, serif;
-  font-size: 40px;
-}
-
-.profile-blurb {
+.project {
   margin-top: 30px;
+  padding: 20px;
+
+  &:hover {
+    cursor: pointer;
+
+    .project-image {
+      opacity: 0.5;
+    }
+    .project-see-more {
+      opacity: 0.8;
+    }
+  }
+}
+
+.project-image {
+  float: left;
+  width: 125px;
+  height: 125px;
+  transition: all 0.25s;
+}
+
+.project-see-more {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.25s;
+}
+
+.project-details {
+  margin-left: 150px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .page-footer {
@@ -196,3 +240,14 @@ ul.social-icons {
 
 // Cosmetic
 
+.project-munirent {
+  background-color: #E3EAF5;
+}
+
+.project-1000tools {
+  background-color: #F5F5DC;
+}
+
+.project-sendtocar {
+  background-color: #DEFFE9;
+}

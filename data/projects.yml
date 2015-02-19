@@ -1,6 +1,6 @@
 ---
 - title: MuniRent
-  image: MuniRent.png
+  image_ext: png
   description: >
       I'm the CTO & co-founder of [MuniRent](http://munirent.co).
 
@@ -11,7 +11,7 @@
       cloud application.
 
 - title: 1000tools
-  image: 1000tools.png
+  image_ext: png
   description: >
     Prior to working on MuniRent, I was the CTO & co-founder of
     [1000tools.com](http://1000tools.com)
@@ -21,28 +21,8 @@
     tools locally. The 1000tools.com Ruby on Rails application was the
     basis for MuniRent.
 
-- title: Open Sesame
-  image: OpenSesame.png
-  description: >
-    OpenSesame is the garage door opener app I put together for my
-    house. It's a cool hack that cost me $0 of materials and has served
-    me well for years now.
-
-
-    The server is in node.js and the physical interface to the garage
-    door opener is hacked through the flow-control pins of a RS232
-    serial port. There is an Android native client with notifications
-    and an HTML5/WebSocket client.
-
-
-    The source for
-    [the server](https://github.com/monkbroc/garage-server)
-    and
-    [the client](https://github.com/monkbroc/garage-client)
-    is on GitHub.
-
 - title: Send To Car
-  image: SendToCar.png
+  image_ext: png
   description: >
     I'm the author of
     [Send To Car for Android](https://play.google.com/store/apps/details?id=com.jvanier.android.sendtocar)
@@ -65,8 +45,28 @@
     [free and open soure](https://github.com/monkbroc/SendToCarAndroid).
     The iOS version is $3.99.
 
+- title: Open Sesame
+  image_ext: png
+  description: >
+    OpenSesame is the garage door opener app I put together for my
+    house. It's a cool hack that cost me $0 of materials and has served
+    me well for years now.
+
+
+    The server is in node.js and the physical interface to the garage
+    door opener is hacked through the flow-control pins of a RS232
+    serial port. There is an Android native client with notifications
+    and an HTML5/WebSocket client.
+
+
+    The source for
+    [the server](https://github.com/monkbroc/garage-server)
+    and
+    [the client](https://github.com/monkbroc/garage-client)
+    is on GitHub.
+
 - title: Engine control
-  image: Solstice.jpg
+  image_ext: jpg
   description: >
     I developed engine control software for cars like the Pontiac
     Solstice for 8 years while working at Bosch in the Systems and
@@ -79,7 +79,7 @@
     software and wiring harness.
 
 - title: Coffee machine mods
-  image: coffee.jpg
+  image_ext: jpg
   description: >
     I love coffee!
 

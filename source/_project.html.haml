@@ -1,6 +1,10 @@
-%li.project
-  = image_tag project.image, :class => "project-image"
-  .project-title= project.name
-  .project-description
-    :markdown
-      #{project.description}
+%li.project{class: "project-#{project_code(project)}",
+  :data => { :image => image_path(project_image(project)), :title => project.title } }
+
+  = image_tag "eye.png", :class => "project-see-more"
+  = image_tag project_thumb(project), :class => "project-image"
+  .project-details
+    .project-title= project.title
+    .project-description
+      :markdown
+        #{project.description}

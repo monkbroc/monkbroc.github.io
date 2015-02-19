@@ -4,5 +4,6 @@
   "version": "1.0.0",
   "dependencies": {
     "normalize-scss": "~3.0.2",
+    "fancybox": "~2.1.5"
   }
 }
