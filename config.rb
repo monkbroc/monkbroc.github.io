@@ -42,6 +42,8 @@ end
 
 # Render page.html.haml to page/index.html
 activate :directory_indexes
+page "/404.html", :directory_index => false
+
 
 # Methods defined in the helpers block are available in templates
 # helpers do
