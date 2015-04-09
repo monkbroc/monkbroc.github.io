@@ -8,3 +8,8 @@
   url: https://medium.com/@jvanier/omniauth-on-rails-4e0180e6a69e
   image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/140/110/1*3s6PqlgLX3qcnZ_16l1G6Q.jpeg
   publication_date: '2015/02/18'
+- title: Convert a Rails association from has and belongs to many to has many through
+  summary: All steps I took to convert an association in my project
+  url: https://medium.com/@jvanier/convert-a-rails-association-from-has-and-belongs-to-many-to-has-many-through-8330f3009dc8
+  image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/140/110/1*1Of0OMe5vnaOFcqX4O4rlg.jpeg
+  publication_date: '2015/04/09'
