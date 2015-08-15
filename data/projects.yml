@@ -24,10 +24,7 @@
 - title: Send To Car
   image_ext: png
   description: >
-    I'm the author of
-    [Send To Car for Android](https://play.google.com/store/apps/details?id=com.jvanier.android.sendtocar)
-    and
-    [Send To Car for iOS](https://itunes.apple.com/us/app/send-to-car/id623123860?mt=8)
+    I'm the author of Send To Car for Android and Send To Car for iOS
 
 
     Send To Car is an app to send address to car navigation systems. It
@@ -37,13 +34,17 @@
     in your car. More than a dozen brands work, all over the world.
 
 
-    Send To Car has more than 100,000 downloads, more than official app
+    Send To Car has more than 125,000 downloads, more than official app
     from brands like BMW and Ford!
 
 
     The Android version is
     [free and open soure](https://github.com/monkbroc/SendToCarAndroid).
     The iOS version is $3.99.
+
+
+    Sadly, this project is now over since Google shut down the old
+    Google Maps website and Send To Car needed that interface.
 
 - title: Open Sesame
   image_ext: png
