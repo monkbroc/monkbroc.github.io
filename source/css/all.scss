@@ -216,6 +216,7 @@ ul.social-icons {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
+  max-height: 110px;
   @media (max-width: $article-width - 1px) {
 	max-height: 90px;
   }
