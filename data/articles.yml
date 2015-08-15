@@ -18,3 +18,12 @@
   url: https://medium.com/@jvanier/3-ways-to-add-your-logo-to-an-eagle-pcb-1a580dcdc444
   image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/140/110/1*pxJELcnLe81QMHdJu3Rpkg.png
   publication_date: '2015/06/11'
+- title: Game over for Send To Car on Android and iOS
+  summary: Changes to Google Maps permanently breaks support for BMW, Ford, Nissan and other popular car brands
+  url: https://medium.com/@jvanier/game-over-for-send-to-car-on-android-and-ios-919dc4102797
+  image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/175/138/1*V9MeDSLmK2SUkMCsxlR6-A.png
+  publication_date: '2015/06/25'
+- title: Generate random device names
+  summary: Smooth_duck, powerful_crocodile, fast_antelope, friendly_crab
+  url: https://medium.com/@jvanier/generate-random-device-names-11f4bbbb7f88
+  publication_date: '2015/07/05'
