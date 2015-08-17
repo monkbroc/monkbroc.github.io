@@ -1,0 +1,11 @@
+%script{ :type => "application/ld+json" }
+  :plain
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Julien Vanier",
+      "url" : "http://www.julienvanier.com",
+      "sameAs" : [
+        #{data.social.map { |n| "\"#{n.url}\"" }.join "," }
+      ]
+    }
