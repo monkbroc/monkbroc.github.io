@@ -32,4 +32,8 @@
   url: https://medium.com/@jvanier/5-steps-to-setup-and-use-a-debugger-with-the-particle-photon-ad0e0fb43a34?source=your-stories
   image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/175/138/1*Xwixx2EGSIC55QToCPQJMg.jpeg
   publication_date: '2015/08/16'
-  
+- title: Particle microservices with hook.io
+  summary: A simple way to write on demand web scripts that talk to your Particle devices
+  url: https://www.hackster.io/monkbroc/particle-microservices-with-hook-io-f3fdb2
+  image_url: https://hackster.imgix.net/uploads/cover_image/file/89987/hook.io%20logo.png?w=600&h=450&fit=min&s=e39eb71a3e9602daa60091f6fb4a85bc
+  publication_date: '2015/11/13'
