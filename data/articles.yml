@@ -32,8 +32,23 @@
   url: https://medium.com/@jvanier/5-steps-to-setup-and-use-a-debugger-with-the-particle-photon-ad0e0fb43a34?source=your-stories
   image_url: https://d262ilb51hltx0.cloudfront.net/fit/c/175/138/1*Xwixx2EGSIC55QToCPQJMg.jpeg
   publication_date: '2015/08/16'
+- title: Debugging Particle on Windows
+  summary: This article is a complement to my 5 steps to setup and use a debugger with the Particle Photon with specific steps to using the debugger on Windows
+  url: https://medium.com/@jvanier/debugging-particle-on-windows-cab418efd76f
+  image_url: https://cdn-images-1.medium.com/fit/c/140/110/1*UnyMXkxZVD5jQqNeCMm4EA.png
+  publication_date: '2015-09-24'
 - title: Particle microservices with hook.io
   summary: A simple way to write on demand web scripts that talk to your Particle devices
   url: https://www.hackster.io/monkbroc/particle-microservices-with-hook-io-f3fdb2
   image_url: https://hackster.imgix.net/uploads/cover_image/file/89987/hook.io%20logo.png?w=600&h=450&fit=min&s=e39eb71a3e9602daa60091f6fb4a85bc
-  publication_date: '2015/11/13'
+  publication_date: '2015-11-13'
+- title: What should I wear outside?
+  summary: A whimsical weather clock powered by Particle and forecast.io
+  url: https://www.hackster.io/monkbroc/what-should-i-wear-outside-81b6e4
+  image_url: https://hackster.imgix.net/uploads/cover_image/file/95056/finished_2.jpg?w=400&h=300&fit=min&fm=jpg&s=d14568308b57dacf1cd5484147531ef9
+  publication_date: '2015-12-04'
+- title: Step-by-step guide to make a physical dashboard
+  summary: A series of steps to display information from the web to a physical display. Perfect for artists looking to make a connected object.
+  url: https://www.hackster.io/monkbroc/step-by-step-guide-to-make-a-physical-dashboard-ae3b8a
+  image_url: https://hackster.imgix.net/uploads/cover_image/file/100850/wavebuoy-anim.gif?w=400&h=300&fit=min&s=35226dd605cbae1c5e0875dc53caee0c
+  publication_date: '2015-12-19'
