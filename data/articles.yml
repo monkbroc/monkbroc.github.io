@@ -52,3 +52,13 @@
   url: https://www.hackster.io/monkbroc/step-by-step-guide-to-make-a-physical-dashboard-ae3b8a
   image_url: https://hackster.imgix.net/uploads/cover_image/file/100850/wavebuoy-anim.gif?w=400&h=300&fit=min&s=35226dd605cbae1c5e0875dc53caee0c
   publication_date: '2015-12-19'
+- title: Darth Vader Wearable Jedi Tracker
+  summary: Add a GPS receiver, an OLED screen and a WiFi-enabled microcontroller to a Darth Vader mask to make a Star Wars-themed geocaching device.
+  url: https://www.hackster.io/monkbroc/darth-vader-wearable-jedi-tracker-13e806
+  image_url: https://hackster.imgix.net/uploads/cover_image/file/107684/mask%20animation.gif?w=400&h=300&fit=min
+  publication_date: '2016-01-10'
+- title: From 0 to IoT in 15 minutes
+  summary: Use the Particle Electron to get a project online in 15 minutes
+  url: https://www.hackster.io/monkbroc/from-0-to-iot-in-15-minutes-3e2607
+  image_url: https://hackster.imgix.net/uploads/cover_image/file/123192/20160218_105157.jpg?w=400&h=300&fit=min&fm=jpg
+  publication_date: '2016-02-28'

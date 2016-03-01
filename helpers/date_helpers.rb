@@ -6,7 +6,7 @@ def date_short(d)
   format = if d.year == Time.current.year
              "%b %-d"
            else
-             "%b %-d %Y"
+             "%b %-d, %Y"
            end
 
   d.strftime format
